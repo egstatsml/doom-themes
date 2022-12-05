@@ -14,14 +14,14 @@
 ;;
 ;;; Variables
 
-(defgroup doom-catppuccin-theme nil
+(defgroup doom-catppuccin-mocha-theme nil
   "Options for the `doom-catppuccin' theme."
   :group 'doom-themes)
 
 ;;
 ;;; Theme definition
 
-(def-doom-theme doom-catppuccin
+(def-doom-theme doom-catppuccin-mocha
   "A dark theme inspired by the Catppuccin Pallete"
 
   ;; name        default   256       16
