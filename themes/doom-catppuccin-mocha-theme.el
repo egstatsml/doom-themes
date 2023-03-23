@@ -136,7 +136,7 @@
    (Man-overstrike :inherit 'bold :foreground magenta)
    (Man-underline :inherit 'underline :foreground blue)
    ;;;; org <built-in>
-   (org-block                    :background base1    :extend t)
+   (org-block                    :background base    :extend t)
    (org-document-title           :foreground builtin  :height 1.4       :weight 'bold)
    ;; org habits
    (org-habit-alert-face :background peach :foreground base5)
