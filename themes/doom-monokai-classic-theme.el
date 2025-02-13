@@ -100,7 +100,7 @@ determine the exact padding."
     (when doom-monokai-classic-padded-modeline
       (if (integerp doom-monokai-classic-padded-modeline) doom-monokai-classic-padded-modeline 4)))
 
-   (modeline-fg nil)
+   (modeline-fg 'unspecified)
    (modeline-fg-alt base4)
 
    (modeline-bg base1)
@@ -178,6 +178,9 @@ determine the exact padding."
    ((org-quote &override) :inherit 'italic :foreground base7 :background org-quote)
    (org-todo :foreground yellow :bold 'inherit)
    (org-list-dt :foreground yellow)
+   ((org-block &override) :background base2)
+   ((org-block-background &override) :background base2)
+   ((org-block-begin-line &override) :background base2)
    ;;;; rainbow-delimiters
    (rainbow-delimiters-depth-1-face :foreground magenta)
    (rainbow-delimiters-depth-2-face :foreground orange)
